@@ -1,1 +1,1 @@
-print('myname')
+print("아 제발 이번에는 ")
