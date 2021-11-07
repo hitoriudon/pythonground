@@ -5,14 +5,14 @@ from selenium.webdriver.common.keys import Keys
 options = webdriver.ChromeOptions()
 
 # 창 크기 설정
-options.add_argument('window-size=1280,720')
+#options.add_argument('window-size=1280,720')
 
 # ...또는 창 최대화
-#options.add_argument('start-maximized')
+options.add_argument('start-maximized')
 
 # ...또는 헤드리스(창이 보이지 않는) 모드
-options.add_argument('--headless')
-options.add_argument('--disable-gpu') 
+#options.add_argument('--headless')
+#options.add_argument('--disable-gpu') 
 '''윈도우인 사람은 on, 아니면 off'''
  
 # 드라이버 생성

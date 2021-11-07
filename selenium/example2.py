@@ -58,6 +58,6 @@ for cs in classes:
     print(cs.text)
  
 # 웹 드라이버 종료
-#driver.quit()
+driver.quit()
 
 '''problem: 터미널에 결과값이 안 떠... 왜 내 과목들 뜨지 않는거야.? ? '''
