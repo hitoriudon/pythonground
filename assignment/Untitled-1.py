@@ -1,3 +1,5 @@
+# another method for str int
+
 def evalPolynomial(x):
     return str(3*(int(x)**5) + 2*(int(x)**4) - (int(x)**3) + 7*int(x) - 6)
 #main
